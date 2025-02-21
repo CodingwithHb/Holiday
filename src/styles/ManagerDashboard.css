@@ -1,0 +1,95 @@
+.dashboard-container {
+    background-color: #F5F4F5;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FAA96C;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    margin: 0;
+    color: #fff;
+  }
+  
+  .logout-button {
+    background-color: #FAA96C;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .requests-section {
+    margin-top: 20px;
+  }
+  
+  .requests-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .requests-table th, .requests-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .requests-table th {
+    background-color: #D6E1B6;
+  }
+  
+  .actions button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .approve-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .reject-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .reschedule-button {
+    background-color: #FFA500;
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #9E9E9E;
+    color: white;
+  }
+  
+  .reschedule-section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #FAD6BE;
+    border-radius: 5px;
+  }
+  
+  .date-picker-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .save-button {
+    background-color: #FAA96C;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  

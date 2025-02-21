@@ -1,0 +1,75 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container for centering the login form */
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #D6E1B6;
+  }
+  
+  /* Form container */
+  .login-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Header */
+  .login-form h2 {
+    font-size: 24px;
+    color: #FAA96C;
+    margin-bottom: 20px;
+  }
+  
+  /* Input fields */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border-color: #FAA96C;
+    box-shadow: 0 0 5px rgba(250, 169, 108, 0.5);
+  }
+  
+  /* Button */
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FAA96C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #FAD6BE;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 600px) {
+    .login-form {
+      width: 90%;
+      padding: 20px;
+    }
+  }
+  

@@ -1,0 +1,100 @@
+/* EmployeeDashboard.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #E3F2FD, #BBDEFB);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-header {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #1E3A8A;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logout-btn {
+  background-color: #FF5722;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  float: right;
+  margin-top: -40px;
+}
+
+.logout-btn:hover {
+  background-color: #E64A19;
+}
+
+.request-form {
+  margin-top: 30px;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.card h3 {
+  font-size: 1.7rem;
+  color: #1E3A8A;
+  margin-bottom: 15px;
+}
+
+.request-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 40px;
+}
+
+.request-table th,
+.request-table td {
+  padding: 14px 20px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.request-table th {
+  background-color: #1E3A8A;
+  color: #fff;
+  font-weight: bold;
+}
+
+.request-table tr:nth-child(even) {
+  background-color: #F1F5F9;
+}
+
+.request-table tr:hover {
+  background-color: #E0F7FA;
+  cursor: pointer;
+}
+
+.icon-btn {
+  font-size: 1.1rem;
+  color: #FF5722;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.icon-btn:hover {
+  color: #E64A19;
+}
