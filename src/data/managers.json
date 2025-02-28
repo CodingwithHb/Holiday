@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "username": "xx",
+      "username": "manager1",
       "password": "1234",
       "name": "Bob Manager",
       "role": "manager",
@@ -10,7 +10,7 @@
     {
       "id": 2,
       "username": "manager2",
-      "password": "password2",
+      "password": "5678",
       "name": "Charlie Boss",
       "role": "manager",
       "employees": [3]
